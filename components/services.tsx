@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import bathroomImage from '@/assets/images/image4.jpg';
+
 import { services } from '@/data/siteData';
 
 export default function Services() {
