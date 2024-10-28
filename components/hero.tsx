@@ -7,9 +7,10 @@ export default function Hero() {
         Handyman Services LLC
       </h1>
       <p className='mt-4 text-lg md:text-2xl text-center max-w-4xl mx-auto'>
-        Trusted since 2005 for all your home improvement needs. Fully insured
-        and bonded, I specialize in roofing, siding, drywall, painting, kitchen
-        and bathroom remodels, electrical, plumbing, and more.
+        Trusted since 2005 and serving northeast Ohio for all your home
+        improvement needs. Fully insured and bonded, I specialize in roofing,
+        siding, drywall, painting, kitchen and bathroom remodels, electrical,
+        plumbing, and more.
       </p>
       <p className='mt-2 text-base md:text-lg text-center max-w-4xl mx-auto'>
         From basements to curb appeal, my expertise covers every corner of your
