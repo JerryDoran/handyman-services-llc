@@ -19,6 +19,7 @@ import handymanThumb from '@/assets/icons/handyman.png';
 import kitchenThumb from '@/assets/icons/kitchen.png';
 import paintingThumb from '@/assets/icons/painting.png';
 import plumbingThumb from '@/assets/icons/plumbing.png';
+import shovelThumb from '@/assets/icons/shovel.svg';
 
 export const services = [
   {
@@ -54,7 +55,7 @@ export const services = [
     id: 10,
     title: 'Landscaping Design',
     image: landscape,
-    thumb: landscapeThumb,
+    thumb: shovelThumb,
   },
   {
     id: 11,

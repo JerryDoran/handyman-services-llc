@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 
 export default function Hero() {
   return (
-    <section className='h-[70dvh] flex flex-col items-center gap-6 relative text-white z-10 p-4'>
+    <section className='h-[75vh] flex flex-col items-center justify-center gap-6 relative text-white z-10 p-4'>
       <h1 className='text-4xl md:text-7xl font-bold mt-8 text-center'>
         Handyman Services LLC
       </h1>
