@@ -8,7 +8,7 @@ import { Mail, Menu, Phone } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
-import Logo from './logo';
+import Image from 'next/image';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,24 +28,29 @@ export default function Navigation() {
           <Button
             variant='outline'
             size='sm'
-            className='font-normal bg-transparent  hover:bg-white/40 hover:text-white border-none  focus-visible:ring-transparent outline-none text-white focus:bg-white/30 transition'
+            className='font-normal bg-transparent hover:bg-white/40 hover:text-white border-none focus-visible:ring-transparent outline-none text-white focus:bg-white/30 transition'
           >
             {/* h4 w4 can now be called size-4 */}
-            <Menu className='size-4 text-black' />
+            <Menu className='text-black' />
           </Button>
         </SheetTrigger>
         <SheetContent
           side='right'
-          className='px-2 border-none text-black/90 z-50'
+          className='px-2 border-none text-black/90 z-50 pt-4'
         >
-          <Logo />
+          <Image
+            src='/handyman-logo.png'
+            alt='mobile menu image'
+            width={50}
+            height={50}
+          />
           <nav className='flex flex-col gap-y-2 pt-16'>
             <Button
               variant='ghost'
-              onClick={() => onClick('/about')}
+              onClick={() => onClick('/')}
               className='w-full justify-start bg-white/10 hover:bg-neutral-100 border-none focus-visible:ring-offset-0 focus-visible:ring-transparent outline-none focus:bg-white/30 transition text-slate-900 text-base'
             >
-              About Me
+              Home
             </Button>
             <Button
               variant='ghost'
@@ -55,15 +60,15 @@ export default function Navigation() {
               My Work
             </Button>
 
-            <div className='absolute bottom-10 ml-4 flex flex-col gap-4'>
-              <div className='flex items-center gap-2'>
-                <Phone className='size-4 text-neutral-500' />
-                <p className='text-sm text-neutral-500'>330-880-9749</p>
+            <div className='text-center ml-4 flex flex-col gap-4'>
+              <div className='flex items-center gap-2 mt-40 mx-auto px-4 py-2 text-base bg-black/70 rounded-lg text-white font-semibold'>
+                Call
+                <Phone className='size-4 font-semibold' />
+                <p className='text-base font-semibold'>330-880-9749</p>
               </div>
-              <Link href='/#contact' className='flex items-center gap-2'>
-                <Mail className='size-4 text-neutral-500' />
-                <p className='text-sm text-neutral-500'>Get a free estimate</p>
-              </Link>
+              <p className='font-semibold text-neutral-500'>
+                For your free estimate
+              </p>
             </div>
           </nav>
         </SheetContent>
@@ -76,10 +81,10 @@ export default function Navigation() {
         href='/about'
         className='hover:bg-slate-200 hover:text-slate-800 transition px-4 py-1 rounded-lg text-neutral-500'
       >
-        About Me
+        Home
       </Link>
       <Link
-        href='/about'
+        href='/'
         className='hover:bg-slate-200 hover:text-slate-800 transition px-2 py-1 rounded-lg text-neutral-500 mr-4'
       >
         My Work

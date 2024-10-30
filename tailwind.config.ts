@@ -64,6 +64,20 @@ const config: Config = {
         // Custom grid template
         'auto-fit-minmax': 'repeat(auto-fit, minmax(200px, 1fr))',
       },
+      keyframes: {
+        slideInLeft: {
+          '0%': { transform: 'translateX(-150px)', opacity: 0 },
+          '100%': { transform: 'translateX(0)', opacity: 1 },
+        },
+        slideInRight: {
+          '0%': { transform: 'translateX(150px)', opacity: 0 },
+          '100%': { transform: 'translateX(0)', opacity: 1 },
+        },
+      },
+      animation: {
+        slideInLeft: 'slideInLeft 0.5s ease-out forwards',
+        slideInRight: 'slideInRight 0.5s ease-out forwards',
+      },
     },
   },
   plugins: [tailwindcssAnimate],

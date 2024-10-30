@@ -5,10 +5,10 @@ import { services } from '@/data/siteData';
 export default function Services() {
   return (
     <section className='bg-slate-100 py-20 text-center px-4'>
-      <div className=' max-w-7xl mx-auto'>
+      <div className='max-w-7xl mx-auto'>
         <div className='flex flex-col items-center gap-y-6'>
           <h1 className='text-4xl md:text-6xl font-bold'>My Services</h1>
-          <hr className='w-[100px] md:w-[200px] bg-slate-400 h-[2px]' />
+          <hr className='w-[100px] md:w-[200px] bg-slate-200 h-[2px] -mt-2' />
         </div>
 
         <div className='grid grid-cols-auto-fit-minmax gap-6 gap-y-12 mx-auto mt-12'>
