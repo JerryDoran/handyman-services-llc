@@ -66,12 +66,12 @@ const config: Config = {
       },
       keyframes: {
         slideInLeft: {
-          '0%': { transform: 'translateX(-150px)', opacity: 0 },
-          '100%': { transform: 'translateX(0)', opacity: 1 },
+          '0%': { transform: 'translateX(-150px)', opacity: '0' },
+          '100%': { transform: 'translateX(0)', opacity: '1' },
         },
         slideInRight: {
-          '0%': { transform: 'translateX(150px)', opacity: 0 },
-          '100%': { transform: 'translateX(0)', opacity: 1 },
+          '0%': { transform: 'translateX(150px)', opacity: '0' },
+          '100%': { transform: 'translateX(0)', opacity: '1' },
         },
       },
       animation: {
