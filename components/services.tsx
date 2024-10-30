@@ -18,7 +18,7 @@ export default function Services() {
                 <Image
                   src={service.image}
                   alt={service.title}
-                  className='rounded-sm md:object-fill object-cover w-full h-[250px] group-hover:scale-105 transition duration-300'
+                  className='rounded-sm object-fill w-full h-[250px] group-hover:scale-105 transition duration-300 max-sm:object-cover'
                 />
                 <div className='absolute bg-slate-600/60 top-[210px] p-2'>
                   <Image
