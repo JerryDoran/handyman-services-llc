@@ -79,13 +79,13 @@ export default function Navigation() {
   return (
     <nav className='lg:flex gap-x-2 hidden'>
       <Link
-        href='/about'
+        href='/'
         className='hover:bg-slate-200 hover:text-slate-800 transition px-4 py-1 rounded-lg text-neutral-500'
       >
         Home
       </Link>
       <Link
-        href='/'
+        href='/gallery'
         className='hover:bg-slate-200 hover:text-slate-800 transition px-2 py-1 rounded-lg text-neutral-500 mr-4'
       >
         My Work

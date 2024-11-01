@@ -21,9 +21,7 @@ import image19 from '@/assets/images/image19.jpg';
 import image20 from '@/assets/images/image20.jpg';
 import image21 from '@/assets/images/image21.jpg';
 import image22 from '@/assets/images/image22.jpg';
-import image23 from '@/assets/images/image23.jpg';
-import image24 from '@/assets/images/image24.jpg';
-import image25 from '@/assets/images/image25.jpg';
+
 import image26 from '@/assets/images/image26.jpg';
 import image28 from '@/assets/images/image28.jpg';
 import image29 from '@/assets/images/image29.jpg';
@@ -297,30 +295,7 @@ export default function WorkPage() {
             quality={50}
           />
         </div>
-        <div className='h-[90%] w-[90%] rounded-xl overflow-hidden'>
-          <Image
-            src={image23}
-            alt='gallery'
-            className='object-fill'
-            quality={50}
-          />
-        </div>
-        <div className='h-[90%] w-[90%] rounded-xl overflow-hidden'>
-          <Image
-            src={image24}
-            alt='gallery'
-            className='object-fill'
-            quality={50}
-          />
-        </div>
-        <div className='h-[90%] w-[90%] rounded-xl overflow-hidden'>
-          <Image
-            src={image25}
-            alt='gallery'
-            className='object-fill'
-            quality={50}
-          />
-        </div>
+
         <div className='h-[90%] w-[90%] rounded-xl overflow-hidden'>
           <Image
             src={image26}
