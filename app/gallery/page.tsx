@@ -21,19 +21,16 @@ import image19 from '@/assets/images/image19.jpg';
 import image20 from '@/assets/images/image20.jpg';
 import image21 from '@/assets/images/image21.jpg';
 import image22 from '@/assets/images/image22.jpg';
-
-import image26 from '@/assets/images/image26.jpg';
-import image28 from '@/assets/images/image28.jpg';
-import image29 from '@/assets/images/image29.jpg';
-import image30 from '@/assets/images/image30.jpg';
-
-import image32 from '@/assets/images/image32.jpg';
-import image33 from '@/assets/images/image33.jpg';
-import image34 from '@/assets/images/image34.jpg';
-
-import image36 from '@/assets/images/image36.jpg';
-import image37 from '@/assets/images/image37.jpg';
-import image38 from '@/assets/images/image38.jpg';
+import image26 from '@/assets/images/image26.png';
+import image28 from '@/assets/images/image28.png';
+import image29 from '@/assets/images/image29.png';
+import image30 from '@/assets/images/image30.png';
+import image32 from '@/assets/images/image32.png';
+import image33 from '@/assets/images/image33.png';
+import image34 from '@/assets/images/image34.png';
+import image36 from '@/assets/images/image36.png';
+import image37 from '@/assets/images/image37.png';
+import image38 from '@/assets/images/image38.png';
 import image39 from '@/assets/images/image39.jpg';
 
 export default function WorkPage() {
