@@ -9,6 +9,7 @@ import { useRouter } from 'next/navigation';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import { MobileServices } from './mobile-services';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,8 +31,7 @@ export default function Navigation() {
             size='sm'
             className='font-normal bg-transparent hover:bg-white/40 hover:text-white border-none focus-visible:ring-transparent outline-none text-white focus:bg-white/30 transition'
           >
-            {/* h4 w4 can now be called size-4 */}
-            <Menu className='text-black' />
+            <Menu className='text-black size-4' />
           </Button>
         </SheetTrigger>
         <SheetContent
@@ -59,18 +59,19 @@ export default function Navigation() {
             >
               My Work
             </Button>
-
-            <div className='text-center ml-4 flex flex-col gap-4'>
-              <div className='flex items-center gap-2 mt-40 mx-auto px-4 py-2 text-base bg-black/70 rounded-lg text-white font-semibold'>
-                Call
-                <Phone className='size-4 font-semibold' />
-                <p className='text-base font-semibold'>330-880-9749</p>
-              </div>
-              <p className='font-semibold text-neutral-500'>
-                For your free estimate
-              </p>
-            </div>
           </nav>
+          <MobileServices />
+
+          <div className='text-center ml-4 flex flex-col gap-4'>
+            <div className='flex items-center gap-2 mt-10 mx-auto px-4 py-2 text-base bg-black/70 rounded-lg text-white font-semibold'>
+              Call
+              <Phone className='size-4 font-semibold' />
+              <p className='text-base font-semibold'>330-880-9749</p>
+            </div>
+            <p className='font-semibold text-neutral-500'>
+              For your free estimate
+            </p>
+          </div>
         </SheetContent>
       </Sheet>
     );

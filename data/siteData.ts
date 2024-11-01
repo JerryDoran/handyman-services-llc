@@ -9,7 +9,6 @@ import electrical from '@/assets/images/electrical.jpeg';
 import basement from '@/assets/images/basement.jpg';
 import landscape from '@/assets/images/landscape.jpg';
 import handymanServices from '@/assets/images/image21.jpg';
-import landscapeThumb from '@/assets/images/landscape.jpg';
 import basementThumb from '@/assets/icons/basement.png';
 import carpentryThumb from '@/assets/icons/carpentry.png';
 import deckingThumb from '@/assets/icons/decking.png';
