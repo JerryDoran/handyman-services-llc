@@ -63,7 +63,7 @@ export default function Navigation() {
           <MobileServices />
 
           <div className='text-center ml-4 flex flex-col gap-4'>
-            <div className='flex items-center gap-2 mt-10 mx-auto px-4 py-2 text-base bg-black/70 rounded-lg text-white font-semibold'>
+            <div className='flex items-center gap-2 mt-5 mx-auto px-4 py-2 text-base bg-black/70 rounded-lg text-white font-semibold'>
               Call
               <Phone className='size-4 font-semibold' />
               <p className='text-base font-semibold'>330-880-9749</p>
